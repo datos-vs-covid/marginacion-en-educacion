@@ -1,10 +1,10 @@
-# Repositorio template 
+# MArginación en Educación
 
 Bienvenido a la iniciativa Datos vs COVID
 
-Si quieres trabajar en algun proyecto relacionado al COVID-19, por favor sigue estas indicaciones:
+En este proyecto estamos intentando relacionar los municipios con COVID y los municipios con bajo rendimiento escolar según la última Encuesta PLANEA
 
-- Crea un repositorio para tu proyecto a partir de este  template. (https://github.com/datos-vs-covid/template). Sólo da click en el botón verde que dice "Use this template" y ¡listo!.
+# Estructura del repo
 - El repositorio tiene por default la siguiente estructura:
 
 ```.
