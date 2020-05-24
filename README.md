@@ -3,13 +3,19 @@
 
 # Marginación en Educación
 
+## Contenidos
+- [Bienvenidx](#bienvenidx)
+- [Estructura del repo](#estructura-del-repo)
+- [Usando Git LFS para los datos](#git-lfs)
+- [Sobre MyBinder](#sobre-mybinder)
+
+### Bienvenidx
+
 Bienvenido a la iniciativa Datos vs COVID
 
 En este proyecto estamos intentando relacionar los municipios con COVID y los municipios con bajo rendimiento escolar según la última Encuesta PLANEA
 
-# Estructura del repo
-- El repositorio tiene por default la siguiente estructura:
-
+### Estructura del repo
 ```
 ├── AUTORES.md
 ├── LICENSE
@@ -30,16 +36,27 @@ En este proyecto estamos intentando relacionar los municipios con COVID y los mu
     └── visualizaciones <- Scripts para la visualización de sus resultados, por ejemplo, matplotlib, ggplot2, bokeh, altair.
 ```
 
-Si no utilizas algún folder, por favor no lo borres. Lo anterior nos va a ayudar a que podamos crear un inventario de datos que podamos compartir con la comunidad. Si necesitas crear más folders, siéntete libre de hacerlo.
+| :bulb: **Nota** | Si no utilizas algún folder, por favor no lo borres. Lo anterior nos va a ayudar a que podamos crear un inventario de datos que podamos compartir con la comunidad. Si necesitas crear más folders, siéntete libre de hacerlo. |
+|:----------------|:-----|
 
+## Git LFS
 Este template usa [Git LSF](https://git-lfs.github.com/) para hacer más ligero el trackeo de archivos de datos, imagenes y videos. Las extensiones que se guardan como LSF son:
 
-- .csv
-- .tsv
-- .sav
-- .mp3, mp4
-- .mov
+- `.csv`
+- `.tsv`
+- `.sav`
+- `.mp3`, `.mp4`
+- `.mov`
 
 Si deseas agregar otro tipo de archivo, sólo agregalo en en el archivo `.gitattributes`
 
-¡Gracias por participar!
+
+## Sobre mybinder
+Al inicio de este README habrás notado dos medallas. Estos son enlaces a una instancia de este repositorio en <MyBinder.org>. MyBinder te permité interactuar con este repositorio en **Jupyter lab** (la medalla anaranjada) o en **RStudio** (la medalla azul) desde tu navegador sin la necesidad de que descargues o instales nada. 
+
+Incluimos estas opciones para alentarte a analizar estos datos tu misma. Todo lo que escribas en tu sesión en mybinder se borra cuando cierras tu navegador así que asegurate de descargar cualquier archivo que creas necesario. 
+
+Estas herramientas son muy buenas para iterar ideas y para explorar dudas que tengas. Si tienes alguna idea de algo mas concreto que crees que valdría la pena considerar agregar al repositorio no dudes en abrir un _issue_ aquí mismo en GitHub. Hazlo dando [clic aquí](https://github.com/datos-vs-covid/marginacion-de-educacion/issues) y asegurate de etiquetar a **@nerudista**, **@irvingfisica**, o **@chekos**.
+
+
+## ¡Gracias por participar!
