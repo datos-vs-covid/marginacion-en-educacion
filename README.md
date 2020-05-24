@@ -36,7 +36,7 @@ En este proyecto estamos intentando relacionar los municipios con COVID y los mu
     └── visualizaciones <- Scripts para la visualización de sus resultados, por ejemplo, matplotlib, ggplot2, bokeh, altair.
 ```
 
-| :bulb: **Nota** | Si no utilizas algún folder, por favor no lo borres. Lo anterior nos va a ayudar a que podamos crear un inventario de datos que podamos compartir con la comunidad. Si necesitas crear más folders, siéntete libre de hacerlo. |
+| :bulb: | Si no utilizas algún folder, por favor no lo borres. Lo anterior nos va a ayudar a que podamos crear un inventario de datos que podamos compartir con la comunidad. Si necesitas crear más folders, siéntete libre de hacerlo. |
 |:----------------|:-----|
 
 ## Git LFS
@@ -52,7 +52,7 @@ Si deseas agregar otro tipo de archivo, sólo agregalo en en el archivo `.gitatt
 
 
 ## Sobre mybinder
-Al inicio de este README habrás notado dos medallas. Estos son enlaces a una instancia de este repositorio en <MyBinder.org>. MyBinder te permité interactuar con este repositorio en **Jupyter lab** (la medalla anaranjada) o en **RStudio** (la medalla azul) desde tu navegador sin la necesidad de que descargues o instales nada. 
+Al inicio de este README habrás notado dos medallas. Estos son enlaces a una instancia de este repositorio en [MyBinder.org](https://mybinder.org/). MyBinder te permité interactuar con este repositorio en **Jupyter lab** (la medalla anaranjada) o en **RStudio** (la medalla azul) desde tu navegador sin la necesidad de que descargues o instales nada. 
 
 Incluimos estas opciones para alentarte a analizar estos datos tu misma. Todo lo que escribas en tu sesión en mybinder se borra cuando cierras tu navegador así que asegurate de descargar cualquier archivo que creas necesario. 
 
