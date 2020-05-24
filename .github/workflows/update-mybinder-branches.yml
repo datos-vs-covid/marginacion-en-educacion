@@ -1,0 +1,16 @@
+name: Sync branch with master
+
+on: [issue_comment]
+
+jobs:
+  sync-branch:
+    if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/sync-branch')
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: Embraser01/update-git-branch-action@v1.0.0
+      if: github.ref == 'refs/heads/master'
+      with:
+        branch: github.ref
+        force: 1 # To push-force to the branch
+        githubToken: ${{ secrets.GITHUB_TOKEN }} # Github Token
