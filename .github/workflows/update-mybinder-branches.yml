@@ -7,9 +7,10 @@ jobs:
     # if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/sync-branch')
     runs-on: ubuntu-latest
     steps:
-      - name: test
-        run: |
-          echo ${{ toJson(github.event) }}
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github.event) }}
+        run: echo "$GITHUB_CONTEXT"
     # - name: Checkout PR
     #   uses: actions/checkout@v2
     #   with:
