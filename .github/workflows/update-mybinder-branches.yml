@@ -1,6 +1,6 @@
 name: Sync branch with master
 
-on: [issue_comment]
+on: [issue_comment, push]
 
 jobs:
   sync-branch:
