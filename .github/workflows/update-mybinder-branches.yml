@@ -7,10 +7,18 @@ jobs:
     if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/sync-branch')
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: Embraser01/update-git-branch-action@v1.0.0
-      if: github.ref == 'refs/heads/master'
+    - name: Checkout PR
+      uses: actions/checkout@v2
       with:
-        branch: github.ref
-        force: 1 # To push-force to the branch
-        githubToken: ${{ secrets.GITHUB_TOKEN }} # Github Token
+        ref: github.ref
+    - name: Checkout master
+      uses: actions/checkout@v2
+      with:
+        ref: "master"
+        clean: false
+    - name: Commit changes
+      run: |
+          git config --global user.name 'github bot'
+          git config --global user.email 'github-actions'
+          git commit -am "Automated sync"
+          git push
