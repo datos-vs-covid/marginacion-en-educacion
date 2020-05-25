@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: test
         run: |
-          echo github.ref
+          echo ${{ github.ref }}
     # - name: Checkout PR
     #   uses: actions/checkout@v2
     #   with:
