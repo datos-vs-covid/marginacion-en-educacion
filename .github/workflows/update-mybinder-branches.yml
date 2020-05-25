@@ -3,26 +3,42 @@ name: Sync branch with master
 on: [issue_comment]
 
 jobs:
-  sync-branch:
-    if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/sync-branch')
+  sync-branch-r:
+    if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/sync-branch-r')
     runs-on: ubuntu-latest
     steps:
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
-    # - name: Checkout PR
-    #   uses: actions/checkout@v2
-    #   with:
-    #     ref: github.ref
-    # - name: Checkout master
-    #   uses: actions/checkout@v2
-    #   with:
-    #     ref: "master"
-    #     clean: false
-    # - name: Commit changes
-    #   run: |
-    #       git config --global user.name 'github bot'
-    #       git config --global user.email 'github-actions'
-    #       git commit -am "Automated sync"
-    #       git push
+    - name: Checkout PR
+      uses: actions/checkout@v2
+      with:
+        ref: 'mybinder-r'
+    - name: Checkout master
+      uses: actions/checkout@v2
+      with:
+        ref: "master"
+        clean: false
+    - name: Commit changes
+      run: |
+          git config --global user.name 'github bot'
+          git config --global user.email 'github-actions'
+          git commit -am "Automated sync"
+          git push
+
+  sync-branch-py:
+    if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/sync-branch-py')
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout PR
+      uses: actions/checkout@v2
+      with:
+        ref: 'mybinder-py'
+    - name: Checkout master
+      uses: actions/checkout@v2
+      with:
+        ref: "master"
+        clean: false
+    - name: Commit changes
+      run: |
+          git config --global user.name 'github bot'
+          git config --global user.email 'github-actions'
+          git commit -am "Automated sync"
+          git push
