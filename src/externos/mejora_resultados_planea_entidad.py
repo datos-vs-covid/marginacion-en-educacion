@@ -226,9 +226,9 @@ def get_entidad_datos(session,entidad,i):
 def main():
     session = requests.Session()
     
-    #for i in range (1,33):
-    lista_entidades=[15,30]
-    for i in lista_entidades:
+    #lista_entidades=[15,30]    
+    #for i in lista_entidades:
+    for i in range (1,33):
         entidad = get_entidad(session,i)
         print ("Entidad a procesar: %i %s" %(i,entidad))
         if archivo_existe(entidad):

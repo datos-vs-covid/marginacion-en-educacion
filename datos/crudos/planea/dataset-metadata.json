@@ -1,0 +1,4556 @@
+{
+  "id":"nerudista/planea-primaria-secundaria-2017-2018",
+  "title": "Resultados Escuelas PLANEA 2017 Y 2018",
+  "subtitle": "Escuelas Primarias y Secundarias",
+  "description": "",
+  "isPrivate": false,
+  "licenses": [
+      {
+          "name": "CC0-1.0"
+      }
+  ],
+  "keywords": [],
+  "collaborators": [],
+  "data": [
+      {
+          "description": null,
+          "name": "AGUASCALIENTES_planea_resultados_escuela.csv",
+          "totalBytes": 367730,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,                     3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,                     6 Resultados No Representativos,                      7 El Porcentaje de Evaluados es menor al 80%,                     8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "BAJA_CALIFORNIA_SUR_planea_resultados_escuela.csv",
+          "totalBytes": 226240,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "BAJA_CALIFORNIA_planea_resultados_escuela.csv",
+          "totalBytes": 748733,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "CAMPECHE_planea_resultados_escuela.csv",
+          "totalBytes": 332494,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "CHIAPAS_planea_resultados_escuela.csv",
+          "totalBytes": 2897387,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "CHIHUAHUA_planea_resultados_escuela.csv",
+          "totalBytes": 1158698,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "CIUDAD_DE_MEXICO_planea_resultados_escuela.csv",
+          "totalBytes": 1541777,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "COAHUILA_DE_ZARAGOZA_planea_resultados_escuela.csv",
+          "totalBytes": 772750,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "COLIMA_planea_resultados_escuela.csv",
+          "totalBytes": 194479,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "DURANGO_planea_resultados_escuela.csv",
+          "totalBytes": 1043387,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "GUANAJUATO_planea_resultados_escuela.csv",
+          "totalBytes": 2047171,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "GUERRERO_planea_resultados_escuela.csv",
+          "totalBytes": 1956410,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "HIDALGO_planea_resultados_escuela.csv",
+          "totalBytes": 1348524,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "JALISCO_planea_resultados_escuela.csv",
+          "totalBytes": 2382511,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "MEXICO_planea_resultados_escuela.csv",
+          "totalBytes": 3749545,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "MICHOACAN_planea_resultados_escuela.csv",
+          "totalBytes": 1906855,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "MORELOS_planea_resultados_escuela.csv",
+          "totalBytes": 555946,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "NAYARIT_planea_resultados_escuela.csv",
+          "totalBytes": 535945,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "NUEVO_LEON_planea_resultados_escuela.csv",
+          "totalBytes": 1285986,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      },
+      {
+          "description": null,
+          "name": "OAXACA_planea_resultados_escuela.csv",
+          "totalBytes": 2139115,
+          "columns": [
+              {
+                  "name": "cct",
+                  "description": "Clave de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "latitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "longitud",
+                  "description": null,
+                  "type": "Uuid"
+              },
+              {
+                  "name": "nombre",
+                  "description": "Nombre de la escuela",
+                  "type": "String"
+              },
+              {
+                  "name": "localidad",
+                  "description": null,
+                  "type": "String"
+              },
+              {
+                  "name": "entidad",
+                  "description": "Entidad federativa (Aguascalientes,Yucatán, etc)",
+                  "type": "String"
+              },
+              {
+                  "name": "nivel",
+                  "description": "Primaria o Secundaria",
+                  "type": "String"
+              },
+              {
+                  "name": "control",
+                  "description": "Escuela Pública o Privada",
+                  "type": "String"
+              },
+              {
+                  "name": "planea_semaforo",
+                  "description": "Como salió la escuela:1 Excelente, 2 Bien,3 De Panzazo, 4 Reprobado, 5 Resultados No Confiables,6 Resultados No Representativos,7 El Porcentaje de Evaluados es menor al 80%, 8 No Tomó la prueba PLANEA ",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_year",
+                  "description": "Año en que se realizó la prueba",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_rank_entidad",
+                  "description": "Ranking de la escuela en la entidad (2 de 1425)",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango insuficiente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el país, en el rango indispensable en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "matematicas_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en matematicas",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_insuficiente_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango insuficiente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_indispensable_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango indispensable en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_satisfactorio_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango satisfactorio en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_escuela",
+                  "description": "Porcentaje de alumnos, en la escuela, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_entidad",
+                  "description": "Porcentaje de alumnos, en la entidad, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "espaniol_sobresalientes_nacional",
+                  "description": "Porcentaje de alumnos, en el pais, en el rango sobresaliente en espaniol",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "planea_evaluados",
+                  "description": "Numero de alumnos evaluados en esa escuala",
+                  "type": "Uuid"
+              },
+              {
+                  "name": "promedio_general",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_matematicas",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "promedio_espaniol",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "rank_nacional",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "direccion",
+                  "description": "Combinacion de localidad y entidad",
+                  "type": "String"
+              },
+              {
+                  "name": "poco_confiables",
+                  "description": "TBD",
+                  "type": null
+              },
+              {
+                  "name": "domicilio",
+                  "description": "Calle y numero",
+                  "type": "String"
+              }
+          ]
+      }
+  ]
+}

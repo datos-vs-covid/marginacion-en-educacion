@@ -183,5 +183,4 @@ vignettes/*.pdf
 
 # pkgdown site
 docs/
-datos/crudos/planea/dataset-metadata.json
 .vscode/settings.json
