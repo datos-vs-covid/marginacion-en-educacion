@@ -153,6 +153,9 @@ cython_debug/
 
 # Example code in package build process
 *-Ex.R
+renv.lock
+renv/
+.Rprofile
 
 # Output files from R CMD build
 /*.tar.gz
@@ -184,3 +187,4 @@ vignettes/*.pdf
 # pkgdown site
 docs/
 .vscode/settings.json
+.Rproj.user
