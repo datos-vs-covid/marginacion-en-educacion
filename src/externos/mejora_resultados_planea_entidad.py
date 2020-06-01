@@ -234,8 +234,9 @@ def main():
         if archivo_existe(entidad):
             print ("El archivo para la entidad %s ya existe" %(entidad))
         else:
-            entidad_datos = get_entidad_datos(session,entidad,i)
-            generar_archivo(entidad,entidad_datos)   
+            pass
+            #entidad_datos = get_entidad_datos(session,entidad,i)
+            #generar_archivo(entidad,entidad_datos)   
             # si corres el script local va a generar los archivos
             # pero estos no se guardan en el repo
             # Por favor revisa el Readme de la carpeta
